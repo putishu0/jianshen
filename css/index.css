@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 40px !important;} }
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 45px !important; } }
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 50px !important; } }
+@media only screen and (min-width: 412px) {
+  html {
+    font-size: 55px !important; } }
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 55px !important; } }
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 90px !important; } }
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 90px !important; } }
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 125px !important; } }
+@media only screen and (min-width: 1280px) {
+  html {
+    font-size: 125px !important; 
+    width:800px;
+    margin:0 auto;} }
+body{
+  background: #000;
+}
+header{
+  height:0.454545rem;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 100;
+}
+header span{
+  height:100%;
+  width:26.3%;
+  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.25rem;
+  color:#ccc;
+}
+header img{
+  height:80%;
+}
+.signal{
+  height:47%;
+}
+header span:nth-child(3){
+  height:100%;
+  width:26.3%;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.25rem;
+}
+header span:nth-child(3) img{
+  height:86%;
+  width:27%;
+}
+.banner{
+  height:3.3636rem;
+  width:100%;
+  box-sizing: border-box;
+  position: relative;
+}
+ .swiper-container {
+  width: 100%;
+  height: 3.5rem;
+  position: relative;
+}  
+.swiper-slide{
+  width: 100%;
+  height:3.5rem;
+
+}
+.swiper-slide img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%
+}
+.banner .banner1{
+  height:100%;
+  width:100%;
+}
+.banner .meng{
+  height:100%;
+  width:53%;
+  position: absolute;
+  top:0rem;
+}
+.information{
+  height:2.636363rem;
+  width:100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/5.jpg);
+  background-size: 10%;
+}
+.information li{
+  height:50%;
+  width:33.3%;
+  border:1px solid #747373;
+  box-sizing: border-box;
+  font-size: 0.28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#c2c3c8;
+}
+.rankings{
+  height:3.3636rem;
+  width:100%;
+  box-sizing: border-box;
+  background: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rankings .friend{
+  width:100%;
+  height:0.7272rem;
+  border-bottom:1px solid #444;
+  font-size: 0.31rem;
+  display: inline-block;
+  text-indent: 0.3rem;
+  line-height: 0.7272rem;
+  color:#fbf8f8;
+}
+.rankings .friend a{
+  color:#6db16f;
+}
+.train{
+  height:3.636363rem;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.train li{
+  width:100%;
+  height:0.504212rem;
+  border:1px solid #575758;
+  box-sizing: border-box;
+  font-size: 0.27rem;
+  line-height: 0.4936rem;
+  text-indent: 0.3rem;
+  color:#95969a;
+}
+.train li:nth-child(1){
+  font-size: 0.29rem;
+  color:#6eb370;
+  border-bottom: none;
+  border-top:1px solid #3a3b3c;
+}
+.train li:nth-child(2){
+  border-top:1px solid #5b5b5b;
+}
+.train li span{
+  float: right;
+  font-size: 0.2rem;
+}
+.train li h5{
+  height:0.04rem;
+  width:50%;
+  background: linear-gradient(to right,#dae625,#6c876d);
+  text-align: right;
+  font-size: 0.5rem;
+  position: relative;
+  top:-0.01rem;
+}
+.train li h5 p{
+  position: absolute;
+  top:-0.25rem;
+  right: -0.1rem;
+  color:#6db16f;
+}
+.train li:nth-child(3) h5{
+  width:23%;
+}
+.train li:nth-child(4) h5{
+  width:63%;
+}
+.train li:nth-child(5){
+  border-bottom: none;
+} 
+footer{
+  width:100%;
+  height:3rem;
+  box-sizing:border-box; 
+  margin-top:0.2727rem;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+footer div{
+  height:2.1818rem;
+  width:100%;
+  background: url(../img/6.png);
+  background-size: 100% 100%;
+}
+footer span{
+  height:0.7272rem;
+  width:100%;
+  display: inline-block;
+  background: #444;
+  font-size: 0.31rem;
+  color:#fbf8f8;
+  text-indent: 0.3rem;
+  line-height: 0.7272rem;
+
+}
+footer b{
+  width:60%;
+  color:#d9dcd9;
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+  display: inline-block;
+  margin-top:0.090909rem;
+}
+footer b::first-line{
+  font-size: 0.25rem;
+  font-weight: 600;
+
+}
+footer b p{
+  text-indent: 0.3rem;
+}
+ol{
+  height:0.7272rem;
+  width:100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  background: #444444;
+}
+ol li{
+  height:100%;
+  width:1rem;
+  color:#7e7e80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.2rem;
+}
+ol li:nth-child(1) a{
+  color:#ccc;
+}
+ol li a{
+   height:100%;
+  width:1rem;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+ol li img{
+  width:38%;
+}
+ol li a{
+    font-size: 0.2rem;
+    color:#7e7e80;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer a{
+  color:#fbf8f8;
+}
