@@ -50,10 +50,9 @@ body{
   background: #000;
 }
 section{
-  height:0.5572rem;
+  height:0.8572rem;
   width:100%;
   position: fixed;
-  top:0.4545rem;
   left: 0;
   display: flex;
   color:#fff;
@@ -73,7 +72,7 @@ section img{
   height:90%;
 }
 .banner{
-  height:3.0909rem;
+  height:3.6909rem;
   width:100%;
   margin-top:1.00717rem;
 }
