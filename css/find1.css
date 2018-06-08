@@ -74,7 +74,6 @@ section img{
 .banner{
   height:3.6909rem;
   width:100%;
-  margin-top:1.00717rem;
 }
 .banner img{
   width:100%;
@@ -193,6 +192,9 @@ ol li:nth-child(2) span a:nth-child(3),
 ol li:nth-child(3) span a:nth-child(3),
 ol li:nth-child(4) span a:nth-child(3){
   font-size: 0.2rem;
+}
+ol li:nth-child(4){
+border:none;
 }
 .jion{
   width:25%;
