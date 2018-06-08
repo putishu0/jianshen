@@ -49,45 +49,6 @@ html {
 body,html{
   background: #000;
 }
-header{
-  height:0.454545rem;
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left:0;
-  z-index: 100;
-}
-header span{
-  height:100%;
-  width:26.3%;
-  display: inline-block;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 0.25rem;
-  color:#ccc;
-}
-header img{
-  height:80%;
-}
-.signal{
-  height:47%;
-}
-header span:nth-child(3){
-  height:100%;
-  width:26.3%;
-  display: inline-block;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 0.25rem;
-}
-header span:nth-child(3) img{
-  height:86%;
-  width:27%;
-}
 .banner{
   height:3.272727rem;
   width:100%;
